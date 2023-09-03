@@ -174,7 +174,7 @@ const Chat = () => {
                 <video
                   src={recording.url}
                   controls
-                  className="w-96 rounded-lg"
+                  className="w-[20rem] rounded-lg"
                 />
               )}
             </div>
@@ -185,7 +185,7 @@ const Chat = () => {
             autoPlay
             playsInline
             muted
-            className="w-96 me-6 mb-24 rounded-md"
+            className="w-[20rem] me-6 mb-24 rounded-md"
           ></video>
         )}
       </div>
